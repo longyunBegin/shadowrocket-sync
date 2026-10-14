@@ -1,0 +1,16 @@
+# local secrets / machine-specific
+config.env
+subscription.url
+host.override.conf
+
+# generated
+out/
+.remote.conf.tmp
+.flyint.conf.tmp
+*.tmp
+
+# logs
+sync.log
+launchd.out.log
+launchd.err.log
+.DS_Store
