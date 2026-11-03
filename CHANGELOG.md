@@ -19,6 +19,8 @@
 
 ### Changed
 
+- **flyint Host DNS**：`*.bestvmr.com` 默认/示例解析从 `47.110.75.65:8053` 改为 `140.235.98.102:8053`（与最新小火箭 / Surge 模块一致）。`sync.sh` 在缺少 `host.override.conf` 时的 Clash nameserver-policy 兜底同步更新。
+
 ### Fixed
 
 ---

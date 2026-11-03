@@ -3,4 +3,5 @@
 # Copy to host.override.conf and edit.
 # ============================================================
 [Host]
-# *.example.com = server:1.2.3.4:53
+# flyint 助手 DNS（2026-11-03：47.110.75.65 → 140.235.98.102）
+*.bestvmr.com = server:140.235.98.102:8053

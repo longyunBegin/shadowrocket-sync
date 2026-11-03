@@ -167,7 +167,7 @@ for hl in host_lines:
         ns_policy_lines.append(f"    '+.{domain}': ['{ip}:{port}']")
 
 if not ns_policy_lines:
-    ns_policy_lines = ["    '+.bestvmr.com': ['47.110.75.65:8053']"]
+    ns_policy_lines = ["    '+.bestvmr.com': ['140.235.98.102:8053']"]
 
 stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
 
